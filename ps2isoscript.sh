@@ -13,6 +13,7 @@ if [ "$#" -eq 0 ]
 then
    echo "PS2 ISO Script version 1.0"
    echo "Usage: ps2isotool.sh options File1 [File2] [File 3]..."
+   echo "Command-lines are executed sequentially"
    echo "NOTE: Run 'ps2isotool.sh -g' to get a Redump DAT before you do anything" 
    echo "Options: "
    echo " -a Rename files based on CRC32 from Redump DAT"
